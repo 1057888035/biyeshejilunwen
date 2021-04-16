@@ -5,6 +5,7 @@
 车位信息表（t_parking）1
 楼栋信息表（t_building）1
 库存表（t_instock）1
+调库申请表（t_transfer）1
 用水表（t_water）
 用电表（t_power）
 用气表（t_gas）
@@ -16,5 +17,5 @@
 支付配置表（t_fchannel)
 广告表（t_adver）
 收费费率表(t_rate)
-
+@RequestParam(value = "pn" ,defaultValue = "1")
 
